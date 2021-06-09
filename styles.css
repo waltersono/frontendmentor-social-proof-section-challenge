@@ -109,7 +109,6 @@ body {
 
 .rating__stars {
     margin-bottom: 1.5rem;
-    color: orange;
 }
 
 .rating__description {
@@ -204,7 +203,7 @@ body {
         align-self: flex-end;
     }
 
-    .fa-star {
+    .icon-star {
         display: inline-block;
         margin-top: 1rem;
     }
