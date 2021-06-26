@@ -141,6 +141,7 @@ body {
     color: var(--white);
     font-weight: 700;
     margin-bottom: 0.5rem;
+    font-size: 1.6rem;
 }
 
 .review__user-status {
