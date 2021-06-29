@@ -34,27 +34,6 @@ body {
     font-family: "Spartan";
 }
 
-/* Utilities */
-.mb-sm {
-    margin-bottom: 1.5rem;
-}
-.mb-md {
-    margin-bottom: 2.5rem;
-}
-.mb-lg {
-    margin-bottom: 3.5rem;
-}
-
-.mt-sm {
-    margin-top: 1.5rem;
-}
-.mt-md {
-    margin-top: 2.5rem;
-}
-.mt-lg {
-    margin-top: 3.5rem;
-}
-
 /* Typography */
 
 .h1 {
@@ -74,7 +53,7 @@ body {
 
 /* Layouts */
 .container {
-    max-width: 1200px;
+    max-width: 60rem;
     width: 90%;
     margin: 0 auto;
 }
@@ -164,7 +143,32 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 1000px) {
+/* Utilities */
+.mb-sm {
+    margin-bottom: 1.5rem;
+}
+.mb-md {
+    margin-bottom: 2.5rem;
+}
+.mb-lg {
+    margin-bottom: 3.5rem;
+}
+
+.mt-sm {
+    margin-top: 1.5rem;
+}
+.mt-md {
+    margin-top: 2.5rem;
+}
+.mt-lg {
+    margin-top: 3.5rem;
+}
+
+@media (min-width: 62.5em) {
+    .container {
+        max-width: 120rem;
+    }
+
     .header {
         display: flex;
         justify-content: space-between;
